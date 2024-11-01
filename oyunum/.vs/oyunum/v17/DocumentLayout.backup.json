@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|c:\\users\\benimbilgisayarim\\desktop\\season2024_2025\\c#\\repo\\projeler\\oyunum\\oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\loadingscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\gamescreen1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\mayin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\mayin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\mayin_tarlasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\mayin_tarlasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gamescreen1.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Gamescreen1.cs",
+              "RelativeDocumentMoniker": "oyunum\\Gamescreen1.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Gamescreen1.cs",
+              "RelativeToolTip": "oyunum\\Gamescreen1.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAAAP4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T19:25:56.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Form1.cs",
+              "RelativeDocumentMoniker": "oyunum\\Form1.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Form1.cs",
+              "RelativeToolTip": "oyunum\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:23:27.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gamescreen1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Gamescreen1.cs",
+              "RelativeDocumentMoniker": "oyunum\\Gamescreen1.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Gamescreen1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "oyunum\\Gamescreen1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:29:23.944Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Form1.cs",
+              "RelativeDocumentMoniker": "oyunum\\Form1.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "oyunum\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:22:31.635Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "oyunum\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Form1.Designer.cs",
+              "RelativeToolTip": "oyunum\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T20:12:58.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Gamescreen1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Gamescreen1.Designer.cs",
+              "RelativeDocumentMoniker": "oyunum\\Gamescreen1.Designer.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Gamescreen1.Designer.cs",
+              "RelativeToolTip": "oyunum\\Gamescreen1.Designer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:32:33.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loadingscreen.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Loadingscreen.cs",
+              "RelativeDocumentMoniker": "oyunum\\Loadingscreen.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Loadingscreen.cs [Tasar\u0131m]",
+              "RelativeToolTip": "oyunum\\Loadingscreen.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:39:42.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Mayin_tarlasi.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Mayin_tarlasi.cs",
+              "RelativeDocumentMoniker": "oyunum\\Mayin_tarlasi.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Mayin_tarlasi.cs",
+              "RelativeToolTip": "oyunum\\Mayin_tarlasi.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:05:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mayin.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Mayin.cs",
+              "RelativeDocumentMoniker": "oyunum\\Mayin.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Mayin.cs",
+              "RelativeToolTip": "oyunum\\Mayin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:55:51.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Loadingscreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Loadingscreen.Designer.cs",
+              "RelativeDocumentMoniker": "oyunum\\Loadingscreen.Designer.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Loadingscreen.Designer.cs",
+              "RelativeToolTip": "oyunum\\Loadingscreen.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:11:39.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loadingscreen.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Loadingscreen.cs",
+              "RelativeDocumentMoniker": "oyunum\\Loadingscreen.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Loadingscreen.cs",
+              "RelativeToolTip": "oyunum\\Loadingscreen.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:40:09.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Program.cs",
+              "RelativeDocumentMoniker": "oyunum\\Program.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Program.cs",
+              "RelativeToolTip": "oyunum\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:40:36.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "oyunum\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\season2024_2025\\C#\\REPO\\Projeler\\oyunum\\oyunum\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "oyunum\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:00:15.513Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.csproj.AssemblyReference.cache
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.Form1.resources
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.Properties.Resources.resources
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.csproj.GenerateResource.cache
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.csproj.CoreCompileInputs.cache
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\bin\Debug\oyunum.exe.config
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\bin\Debug\oyunum.exe
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\bin\Debug\oyunum.pdb
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.exe
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.pdb
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.Gamescreen1.resources
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.Resources.resources
+C:\Users\BenimBilgisayarim\Desktop\season2024_2025\C#\REPO\Projeler\oyunum\oyunum\obj\Debug\oyunum.Loadingscreen.resources
