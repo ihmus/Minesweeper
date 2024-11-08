@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,8 @@ namespace oyunum
         private int toplamButonSayisi = 0;
         private int basilanButonSayisi = 0;
         private Size TarlaBoyutu;
+        private List<PlayerScore> playerScores; // Define the playerScores list here private
+        string csvFilePath;        
         public Gamescreen1(string isim,int numberofmine,Size tarlaboyutu,Size Pencere)
         {
             username = isim;
@@ -32,6 +35,8 @@ namespace oyunum
             this.Size = new Size(Pencere.Width, Pencere.Height);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Gamescreen1_FormClosing);
             location_of_button(Pencere.Width - 70, 10);
+            playerScores = new List<PlayerScore>();
+            csvFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "skorlar.csv");
 
         }
 
@@ -76,7 +81,25 @@ namespace oyunum
                 skor += 30;
             }
         }
+        private void AddNewPlayerScore(string name, int score)
+        {
+            try
+            {
+                // Yeni veriyi CSV dosyasına ekle
+                using (var writer = new StreamWriter(csvFilePath, true, Encoding.UTF8))
+                {
+                    writer.WriteLine($"{name},{score}");
+                }
 
+                // Yeni skoru listeye ekle ve listeyi yeniden sırala
+                playerScores.Add(new PlayerScore(name, score));
+                playerScores = playerScores.OrderByDescending(s => s.Score).Take(10).ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Hata oluştu: {ex.Message}");
+            }
+        }
         public void add_button(Point button_location)
         {
             Button btn = new Button();
@@ -97,6 +120,7 @@ namespace oyunum
             {
                 Showed_allbomb();
                 MessageBox.Show($"Kaybettiniz \n {toplamButonSayisi } - {basilanButonSayisi}={toplamButonSayisi-basilanButonSayisi}");
+                AddNewPlayerScore(username, skor);
                 Form1 oyunsonu = new Form1(username, skor,false) ;
                 oyunsonu.Show();
                 this.Hide();
@@ -139,6 +163,7 @@ namespace oyunum
                     if (toplamButonSayisi - number_of_mine == basilanButonSayisi)
                     {
                         MessageBox.Show($"Tebrikler, kazandınız! Skorunuz: {skor}");
+                        AddNewPlayerScore(username, skor);
                         Form1 oyunsonu = new Form1(username, skor,true);
                         oyunsonu.Show();
                         this.Hide();
@@ -202,6 +227,7 @@ namespace oyunum
                             if (toplamButonSayisi - number_of_mine == basilanButonSayisi)
                             {
                                 MessageBox.Show($"Tebrikler, kazandınız! Skorunuz: {skor}");
+                                AddNewPlayerScore(username, skor);
                                 Form1 oyunsonu = new Form1(username, skor,true);
                                 oyunsonu.Show();
                                 this.Hide();

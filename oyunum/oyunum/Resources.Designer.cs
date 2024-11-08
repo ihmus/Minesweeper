@@ -83,16 +83,6 @@ namespace oyunum {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap login {
-            get {
-                object obj = ResourceManager.GetObject("login", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap MD {
             get {
                 object obj = ResourceManager.GetObject("MD", resourceCulture);
@@ -117,6 +107,15 @@ namespace oyunum {
             get {
                 object obj = ResourceManager.GetObject("oyunarkaplan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   skorlar.csv benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        internal static string skorlar {
+            get {
+                return ResourceManager.GetString("skorlar", resourceCulture);
             }
         }
     }
