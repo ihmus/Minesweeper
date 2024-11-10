@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,7 +24,10 @@ namespace oyunum
         private int basilanButonSayisi = 0;
         private Size TarlaBoyutu;
         private List<PlayerScore> playerScores; // Define the playerScores list here private
-        string csvFilePath;        
+        string csvFilePath;
+        private int counter = 15;
+        private bool timerStopped = false;
+
         public Gamescreen1(string isim,int numberofmine,Size tarlaboyutu,Size Pencere)
         {
             username = isim;
@@ -45,8 +49,10 @@ namespace oyunum
             mayin_tarlamiz = new Mayin_tarlasi(new Size(TarlaBoyutu.Width, TarlaBoyutu.Height), number_of_mine);
             toplamButonSayisi = (int)(Math.Floor((double)mayin_tarlamiz.buyuklugu.Width / 20) * Math.Floor((double)mayin_tarlamiz.buyuklugu.Height / 20));
             panel1.Size = mayin_tarlamiz.buyuklugu;
+            timer1.Start();
             Mayin_ekle();
             //Showed_allbomb();
+
         }
         private void location_of_button(int x, int y)
         {
@@ -68,18 +74,8 @@ namespace oyunum
         }
         private void skor_ekle()
         {
-            if (number_of_mine < 50)
-            {
-                skor += 10;
-            }
-            else if (number_of_mine < 70)
-            {
-                skor += 20;
-            }
-            else
-            {
-                skor += 30;
-            }
+            skor += counter * 1000;
+            Sayacsifirla();
         }
         private void AddNewPlayerScore(string name, int score)
         {
@@ -119,7 +115,8 @@ namespace oyunum
             if (myn.istherebomb)
             {
                 Showed_allbomb();
-                MessageBox.Show($"Kaybettiniz \n {toplamButonSayisi } - {basilanButonSayisi}={toplamButonSayisi-basilanButonSayisi}");
+                timer1.Stop();
+                MessageBox.Show($"Kaybettiniz \n ");
                 AddNewPlayerScore(username, skor);
                 Form1 oyunsonu = new Form1(username, skor,false) ;
                 oyunsonu.Show();
@@ -130,7 +127,7 @@ namespace oyunum
                 int s= etrafta_kac_mayin_var(myn);
                 if (s == 0) {
                     basilanButonSayisi++;
-                    skor_ekle();
+                    //skor_ekle();
                     mayinlarimiz.Add(myn);
                     for (int i = 0; i < mayinlarimiz.Count; i++)
                     {
@@ -157,12 +154,13 @@ namespace oyunum
                 {
                     btn.Text = s.ToString();
                     btn.Enabled = false;
-                    skor_ekle();
+                    //skor_ekle();
                     basilanButonSayisi++;
+                    Sayacsifirla();
                     btn.Focus();
                     if (toplamButonSayisi - number_of_mine == basilanButonSayisi)
                     {
-                        MessageBox.Show($"Tebrikler, kazandınız! Skorunuz: {skor}");
+                        MessageBox.Show($"Tebrikler, kazandınız! \n Skorunuz: {skor}");
                         AddNewPlayerScore(username, skor);
                         Form1 oyunsonu = new Form1(username, skor,true);
                         oyunsonu.Show();
@@ -172,6 +170,15 @@ namespace oyunum
                 }
             }
 
+        }
+        private void Sayacsifirla()
+        {
+            if (!timerStopped) // Timer daha önce durmadıysa
+            {
+                MineCountLabel.Text = $"{toplamButonSayisi - number_of_mine - basilanButonSayisi}";
+                counter = 15; // Geri sayımı 10'a sıfırlayın
+                timer1.Start(); // Timer'ı başlatın
+            }
         }
         private void btn_MouseDown(object sender, MouseEventArgs e)
         {
@@ -187,6 +194,11 @@ namespace oyunum
                 {
                     btn.Text = "🚩";
                     btn.Click -= btn_Click;
+                }
+                Mayin myn = mayin_tarlamiz.mayin_al_loc(btn.Location);
+                if (myn.istherebomb)
+                {
+                    skor_ekle();
                 }
             }
         }
@@ -222,11 +234,12 @@ namespace oyunum
                                 btn.Text = etraftakiMayinSayisi.ToString();
                                 btn.Enabled = false;  
                             }
-                            skor_ekle();
+                            //skor_ekle();
                             basilanButonSayisi++;
+                            Sayacsifirla();
                             if (toplamButonSayisi - number_of_mine == basilanButonSayisi)
                             {
-                                MessageBox.Show($"Tebrikler, kazandınız! Skorunuz: {skor}");
+                                MessageBox.Show($"Tebrikler, kazandınız! \n Skorunuz: {skor}");
                                 AddNewPlayerScore(username, skor);
                                 Form1 oyunsonu = new Form1(username, skor,true);
                                 oyunsonu.Show();
@@ -288,15 +301,35 @@ namespace oyunum
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
+        }
+
+        private void backbutton_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
             Form1 oyunsonu = new Form1();
             oyunsonu.Show();
             this.Hide();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
+            if (counter > 0)
+            {
+                counter--;
+                TimerLabel.Text = counter.ToString();
+            }
+            else
+            {
+                timer1.Stop();
+                timerStopped = true;
+                MessageBox.Show("Geri sayım tamamlandı!");
+            }
         }
+
+        
     }
 }

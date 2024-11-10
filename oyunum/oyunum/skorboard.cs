@@ -21,22 +21,55 @@ namespace oyunum
             InitializeComponent();
             InitializePlayerScores();
             DisplayPlayerScores();
+
+            // Üst kenar çubuğunu kaldır
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+
+            // Formun boyutunu sabitle
+            this.Size = new Size(200, 300);
         }
 
         private void InitializePlayerScores()
         {
             playerScores = new List<PlayerScore>();
             csvFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "skorlar.csv");
-            
 
             try
             {
+                if (!File.Exists(csvFilePath))
+                {
+                    MessageBox.Show("Skor dosyası bulunamadı.");
+                    return;
+                }
+
                 var lines = File.ReadAllLines(csvFilePath);
+
+                if (lines.Length == 0)
+                {
+                    MessageBox.Show("Skor dosyası boş.");
+                    return;
+                }
 
                 foreach (var line in lines.Skip(1))  // İlk satır başlık olduğu için atlanıyor
                 {
                     var values = line.Split(',');
-                    playerScores.Add(new PlayerScore(values[0], Convert.ToInt32(values[1])));
+
+                    if (values.Length < 2)
+                    {
+                        MessageBox.Show("Geçersiz veri formatı: " + line);
+                        continue;
+                    }
+
+                    if (int.TryParse(values[1], out int score))
+                    {
+                        playerScores.Add(new PlayerScore(values[0], score));
+                    }
+                    else
+                    {
+                        MessageBox.Show("Geçersiz skor verisi: " + values[1]);
+                    }
                 }
 
                 // En yüksek 10 skoru al
@@ -50,13 +83,56 @@ namespace oyunum
 
         private void DisplayPlayerScores()
         {
-            DataGridView dataGridView = new DataGridView();
-            dataGridView.Dock = DockStyle.Fill;
-            dataGridView.DataSource = playerScores;
-            this.Controls.Add(dataGridView);
+            // Create and configure the label
+            Label label = new Label
+            {
+                Text = "10 İyi Oyuncu",
+                Font = new Font("Arial", 12, FontStyle.Bold),
+                AutoSize = true,
+                TextAlign = ContentAlignment.MiddleCenter
+            };
 
-            this.Text = "Son 10 Oyuncunun Skorları";
-            this.Size = new Size(400, 300);
+            this.Controls.Add(label);
+            label.Dock = DockStyle.Top;
+            // Create and configure the panel
+            Panel panel = new Panel
+            {
+                Dock = DockStyle.Fill, // Fill the remaining space below the label
+                Padding = new Padding(0, 35, 0, 0) // Add a top padding to ensure some space between the label and the panel
+            };
+
+            this.Controls.Add(panel);
+
+            // Create and configure the DataGridView
+            DataGridView dataGridView = new DataGridView
+            {
+                DataSource = playerScores,
+                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
+                Dock = DockStyle.Fill,
+                ScrollBars = ScrollBars.Vertical
+            };
+
+            // Add the DataGridView to the panel
+            panel.Controls.Add(dataGridView);
+
+            // Adjust row heights to fit the panel
+            AdjustRowHeights(dataGridView);
+        }
+
+        private void AdjustRowHeights(DataGridView dataGridView)
+        {
+            int totalHeight = this.ClientSize.Height;
+            int rowCount = dataGridView.RowCount;
+
+            if (rowCount > 0)
+            {
+                int rowHeight = totalHeight / rowCount;
+
+                foreach (DataGridViewRow row in dataGridView.Rows)
+                {
+                    row.Height = rowHeight;
+                }
+            }
         }
     }
 

@@ -63,6 +63,16 @@ namespace oyunum {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap animasyon {
+            get {
+                object obj = ResourceManager.GetObject("animasyon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Gamebackground {
             get {
                 object obj = ResourceManager.GetObject("Gamebackground", resourceCulture);

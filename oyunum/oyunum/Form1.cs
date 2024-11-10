@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace oyunum
 {
@@ -16,97 +15,94 @@ namespace oyunum
         private string username;
         private int score;
         private const int MaxLength = 2;
-        private int tarlaboyutu;
-
+        private const int mintarlaboyutu = 10; // Minimum sınır
+        private const int maxtarlaboyutu = 30; // Maksimum sınır
+        private bool gameStarted = false; // Oyun başladı mı kontrolü için bir bayrak
+        private skorboard SkorSayfasi; private bool sonucsayfasiaktiflik = false;
 
         public Form1(string username = null, int score = 0, bool kazanma_durumu = false)
         {
             InitializeComponent();
             this.textBox1.KeyDown += new KeyEventHandler(textBox1_KeyDown);
             this.textBox1.GotFocus += new EventHandler(textBoxValue_GotFocus);
-            this.textBox2.KeyDown += new KeyEventHandler(textBox2_KeyDown); // textBox2 için KeyDown olayı eklendi
+            this.textBox2.KeyDown += new KeyEventHandler(textBox2_KeyDown);
             this.MaximizeBox = false;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosing += new FormClosingEventHandler(Form1_FormClosing);
             this.Text = "Demirhan Adıgüzel";
 
-            if (username != null)
+            if (!string.IsNullOrEmpty(username))
             {
+                // Kullanıcı adı ve skor ayarlamaları
                 this.username = username;
                 this.score = score;
-                if (kazanma_durumu)
-                {
-                    Kazanmak.Text = "Tebrikler";
-                    Sonuc.Text = char.ToUpper(username[0]) + username.Substring(1).ToLower() + " \n Skorun : " + score.ToString();
-                }
-                else
-                {
-                    Kazanmak.Text = "Kaybettiniz";
-                    Sonuc.Text = char.ToUpper(username[0]) + username.Substring(1).ToLower() + " \n Skorun : " + score.ToString();
-                }
+                Kazanmak.Text = kazanma_durumu ? "Tebrikler" : "Kaybettiniz";
+                Sonuc.Text = $"{char.ToUpper(username[0])}{username.Substring(1).ToLower()} \n Skorun : {score}";
                 NameText.MaxLength = 12;
                 NameText.Text = username;
                 Sonuc.Visible = true;
             }
             else
             {
+                // Sonuç mesajını gizler
                 Sonuc.Text = string.Empty;
                 Sonuc.Visible = false;
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void Basla_Click(object sender, EventArgs e)
         {
-            string toplammetin = string.Empty;
-            int mayin_sayisi = 0;
-            string isim = NameText.Text;
+            StartGame(); // Oyunu başlatma işlevi çağrılır
+        }
 
-            if (string.IsNullOrEmpty(isim))
+        private void StartGame()
+        {
+            if (gameStarted) return; // Eğer oyun zaten başladıysa işlemi durdurur
+
+            if (string.IsNullOrEmpty(NameText.Text))
             {
                 MessageBox.Show("Lütfen isim alanını doldurun.");
+                return;
             }
-            else
+            bool isInteger = int.TryParse(NameText.Text, out int result);
+            if (isInteger)
             {
-                // Zorluk seviyesi seçim ve oyun başlatma kodları burada olacak
+                MessageBox.Show("Lütfen isim alanına integer değer girmeyin");
+                return;
             }
-        }
 
-        private void NameText_TextChanged(object sender, EventArgs e)
-        {
+            if (!int.TryParse(textBox1.Text, out int tarlaboyutu) || !int.TryParse(textBox2.Text, out int mayinmiktari))
+            {
+                MessageBox.Show("Lütfen geçerli sayılar girin.");
+                return;
+            }
 
-        }
+            if (tarlaboyutu < mintarlaboyutu || tarlaboyutu > maxtarlaboyutu || mayinmiktari < 10 || mayinmiktari >= tarlaboyutu * tarlaboyutu)
+            {
+                MessageBox.Show($"Lütfen {mintarlaboyutu} ile {maxtarlaboyutu} arasında bir tarla boyutu ve geçerli bir mayın miktarı giriniz.");
+                return;
+            }
 
-        private void SecimOrta_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            // Oyun ekranını oluştur ve göster
+            Gamescreen1 oyun = new Gamescreen1(NameText.Text, mayinmiktari, new Size(tarlaboyutu * 20, tarlaboyutu * 20), new Size(1000, 800));
+            oyun.Show();
+            this.Hide(); // Ana formu gizle
+            gameStarted = true; // Oyun başladığını işaretle
         }
 
         private void textBox1_Click(object sender, EventArgs e)
         {
-            string isim = NameText.Text;
-            if (string.IsNullOrEmpty(isim))
+            if (string.IsNullOrEmpty(NameText.Text))
             {
                 MessageBox.Show("Lütfen isim alanını doldurun.");
                 NameText.Focus();
+            }
+            bool isInteger = int.TryParse(NameText.Text, out int result);
+            if (isInteger)
+            {
+                MessageBox.Show("Lütfen isim alanına integer değer girmeyin");
+                NameText.Clear();
+                NameText.Focus();
+                return;
             }
             else
             {
@@ -128,26 +124,18 @@ namespace oyunum
         {
             if (e.KeyCode == Keys.Enter)
             {
-                // Enter tuşuna basıldığında yapılacak işlemler
-                int minValue = 10;  // Minimum sınır
-                int maxValue = 30;  // Maksimum sınır
-
-                int userInput;
-                bool isValid = int.TryParse(textBox1.Text, out userInput);
-
-                if (isValid && userInput >= minValue && userInput <= maxValue)
+                if (int.TryParse(textBox1.Text, out int userInput) && userInput >= mintarlaboyutu && userInput <= maxtarlaboyutu)
                 {
-                    tarlaboyutu = userInput * userInput;
-                    textBox2.Focus();
+                    textBox2.Focus(); // Geçerli giriş ise textBox2'ye odaklan
                 }
                 else
                 {
-                    MessageBox.Show($"Lütfen {minValue} ile {maxValue} arasında bir değer giriniz.");
+                    MessageBox.Show($"Lütfen {mintarlaboyutu} ile {maxtarlaboyutu} arasında bir değer giriniz.");
                     textBox1.Clear();
                     textBox1.Focus();
                 }
 
-                e.Handled = true;  // Enter tuşunun varsayılan işlevini devre dışı bırakır
+                e.Handled = true;
                 e.SuppressKeyPress = true;
             }
         }
@@ -156,54 +144,71 @@ namespace oyunum
         {
             if (e.KeyCode == Keys.Enter)
             {
-                // Enter tuşuna basıldığında yapılacak işlemler
-                int minValue = 10;  // Minimum sınır
+                StartGame(); // Oyunu başlatma işlevi çağrılır
 
-                // Önce tarlaboyutu'nu textBox1'den al
-                bool isTarlaboyutuValid = int.TryParse(textBox1.Text, out tarlaboyutu);
-
-                if (!isTarlaboyutuValid)
-                {
-                    MessageBox.Show("Lütfen geçerli bir tarla boyutu girin.");
-                    textBox1.Clear();
-                    textBox1.Focus();
-                    return;
-                }
-
-                int maxValue = tarlaboyutu;  // Maksimum sınır
-
-                int userInput;
-                bool isValid = int.TryParse(textBox2.Text, out userInput);  // Burada textBox2 kullanılmalı
-
-                if (isValid && userInput >= minValue && userInput < maxValue*maxValue)
-                {
-                    string toplammetin = string.Empty;
-                    string isim = NameText.Text;
-                    if (string.IsNullOrEmpty(isim))
-                    {
-                        MessageBox.Show("Lütfen isim alanını doldurun.");
-                    }
-                    int boyut = (int)Math.Sqrt(tarlaboyutu);
-                    Gamescreen1 oyun = new Gamescreen1(isim, userInput, new Size(tarlaboyutu*20,tarlaboyutu*20), new Size(800, 600));
-                    oyun.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show($"Lütfen {minValue} ile {maxValue*maxValue-1} arasında bir değer giriniz.");
-                    textBox2.Clear();
-                    textBox2.Focus();
-                }
-
-                e.Handled = true;  // Enter tuşunun varsayılan işlevini devre dışı bırakır
+                e.Handled = true;
                 e.SuppressKeyPress = true;
             }
         }
 
         private void skorpagebutton_Click(object sender, EventArgs e)
         {
-            skorboard skor = new skorboard();
-            skor.Show();
+
+            if (sonucsayfasiaktiflik)
+            {
+                SkorSayfasi.Close();
+                SkorSayfasi.Dispose(); // Nesneyi tamamen imha et
+                SkorSayfasi = null; // Referansı temizle
+                sonucsayfasiaktiflik = false;
+                skorpagebutton.Text = "Skorlar";
+            }
+            else
+            {
+                if (SkorSayfasi == null || SkorSayfasi.IsDisposed) // Nesnenin durumu kontrol ediliyor
+                {
+                    SkorSayfasi = new skorboard();
+                    SkorSayfasi.StartPosition = FormStartPosition.Manual;
+                    SkorSayfasi.Location = new Point(this.Location.X + this.Width, this.Location.Y);
+                }
+
+                SkorSayfasi.Show(); // Skor ekranını göster
+                sonucsayfasiaktiflik = true;
+                skorpagebutton.Text = "Kapat";
+            }
+
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); // Uygulamayı kapat
+        }
+
+        private void NameText_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (string.IsNullOrWhiteSpace(NameText.Text))
+                {
+                    MessageBox.Show("Lütfen isim alanını doldurun.");
+                }
+                bool isInteger = int.TryParse(NameText.Text, out int result);
+                if (isInteger)
+                {
+                    MessageBox.Show("Lütfen isim alanına integer değer girmeyin");
+                    NameText.Clear();
+                    NameText.Focus();
+                    return;
+                }
+                else
+                {
+                    textBox1.Focus(); // Geçerli giriş ise textBox1'e odaklan
+                }
+
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        
     }
 }

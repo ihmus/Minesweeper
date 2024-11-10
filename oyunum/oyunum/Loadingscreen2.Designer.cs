@@ -1,6 +1,6 @@
 ﻿namespace oyunum
 {
-    partial class skorboard
+    partial class Loadingscreen2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // skorboard
+            // timer1
+            // 
+            this.timer1.Interval = 27;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // Loadingscreen2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(414, 450);
-            this.Name = "skorboard";
-            this.Text = "skorboard";
+            this.ClientSize = new System.Drawing.Size(478, 450);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Loadingscreen2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Loadingscreen2";
+            this.Load += new System.EventHandler(this.Loadingscreen2_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -64,6 +64,12 @@
     <Compile Include="Loadingscreen.Designer.cs">
       <DependentUpon>Loadingscreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loadingscreen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loadingscreen2.Designer.cs">
+      <DependentUpon>Loadingscreen2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mayin.cs" />
     <Compile Include="Mayin_tarlasi.cs" />
     <Compile Include="Program.cs" />
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Loadingscreen.resx">
       <DependentUpon>Loadingscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loadingscreen2.resx">
+      <DependentUpon>Loadingscreen2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -132,6 +141,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Gamebackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animasyon.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

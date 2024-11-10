@@ -3,72 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|c:\\users\\benimbilgisayarim\\desktop\\oyunum\\oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|c:\\users\\benimbilgisayarim\\desktop\\oyunum\\oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|c:\\users\\benimbilgisayarim\\desktop\\oyunum\\oyunum\\skorlar.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorlar.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\mayin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\mayin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\mayin_tarlasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\mayin_tarlasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\gamescreen1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\mayin_tarlasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\mayin_tarlasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\gamescreen1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorlar.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5C27FFEF-10A7-475D-8452-7905E2F973FD}|oyunum\\oyunum.csproj|solutionrelative:oyunum\\skorlar.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,87 +90,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.cs",
-              "RelativeDocumentMoniker": "oyunum\\Form1.cs",
-              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.cs [Tasar\u0131m]",
-              "RelativeToolTip": "oyunum\\Form1.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T18:22:31.635Z",
-              "IsPinned": true,
-              "EditorCaption": " [Tasar\u0131m]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.cs",
+              "RelativeDocumentMoniker": "oyunum\\Form1.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.cs [Design]",
+              "RelativeToolTip": "oyunum\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:22:31.635Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "skorlar.csv",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorlar.csv",
               "RelativeDocumentMoniker": "oyunum\\skorlar.csv",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorlar.csv",
               "RelativeToolTip": "oyunum\\skorlar.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-11-08T10:45:26.529Z"
+              "WhenOpened": "2024-11-08T10:45:26.529Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Loadingscreen2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen2.Designer.cs",
+              "RelativeDocumentMoniker": "oyunum\\Loadingscreen2.Designer.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen2.Designer.cs",
+              "RelativeToolTip": "oyunum\\Loadingscreen2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:56:25.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loadingscreen2.cs",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen2.cs",
+              "RelativeDocumentMoniker": "oyunum\\Loadingscreen2.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen2.cs",
+              "RelativeToolTip": "oyunum\\Loadingscreen2.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:58:18.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Loadingscreen2.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen2.cs",
+              "RelativeDocumentMoniker": "oyunum\\Loadingscreen2.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen2.cs [Tasar\u0131m]",
+              "RelativeToolTip": "oyunum\\Loadingscreen2.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:54:58.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "skorboard.Designer.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.Designer.cs",
               "RelativeDocumentMoniker": "oyunum\\skorboard.Designer.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.Designer.cs",
               "RelativeToolTip": "oyunum\\skorboard.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T10:39:22.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "skorboard.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs",
               "RelativeDocumentMoniker": "oyunum\\skorboard.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs",
               "RelativeToolTip": "oyunum\\skorboard.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T10:31:47.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "skorboard.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs",
-              "RelativeDocumentMoniker": "oyunum\\skorboard.cs",
-              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs [Tasar\u0131m]",
-              "RelativeToolTip": "oyunum\\skorboard.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T10:26:30.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.cs",
               "RelativeDocumentMoniker": "oyunum\\Form1.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.cs",
               "RelativeToolTip": "oyunum\\Form1.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAwwM0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAqwLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T18:23:27.744Z"
+              "WhenOpened": "2024-10-15T18:23:27.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Gamescreen1.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Gamescreen1.cs",
               "RelativeDocumentMoniker": "oyunum\\Gamescreen1.cs",
@@ -169,44 +206,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Gamescreen1.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Gamescreen1.cs",
               "RelativeDocumentMoniker": "oyunum\\Gamescreen1.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Gamescreen1.cs",
               "RelativeToolTip": "oyunum\\Gamescreen1.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAAH0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAEcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T19:25:56.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "oyunum\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Form1.Designer.cs",
               "RelativeToolTip": "oyunum\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAEwMwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T20:12:58.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T20:12:58.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Gamescreen1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Gamescreen1.Designer.cs",
               "RelativeDocumentMoniker": "oyunum\\Gamescreen1.Designer.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Gamescreen1.Designer.cs",
               "RelativeToolTip": "oyunum\\Gamescreen1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAIAwwIkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T17:32:33.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Loadingscreen.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen.cs",
               "RelativeDocumentMoniker": "oyunum\\Loadingscreen.cs",
@@ -217,75 +253,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "Mayin_tarlasi.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Mayin_tarlasi.cs",
               "RelativeDocumentMoniker": "oyunum\\Mayin_tarlasi.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Mayin_tarlasi.cs",
               "RelativeToolTip": "oyunum\\Mayin_tarlasi.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwDAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T12:05:47.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "Mayin.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Mayin.cs",
               "RelativeDocumentMoniker": "oyunum\\Mayin.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Mayin.cs",
               "RelativeToolTip": "oyunum\\Mayin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T11:55:51.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "Loadingscreen.Designer.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen.Designer.cs",
               "RelativeDocumentMoniker": "oyunum\\Loadingscreen.Designer.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen.Designer.cs",
               "RelativeToolTip": "oyunum\\Loadingscreen.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T17:11:39.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Loadingscreen.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen.cs",
               "RelativeDocumentMoniker": "oyunum\\Loadingscreen.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Loadingscreen.cs",
               "RelativeToolTip": "oyunum\\Loadingscreen.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T20:40:09.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Program.cs",
               "RelativeDocumentMoniker": "oyunum\\Program.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Program.cs",
               "RelativeToolTip": "oyunum\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T20:40:36.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "oyunum\\Properties\\Resources.Designer.cs",
               "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\Properties\\Resources.Designer.cs",
               "RelativeToolTip": "oyunum\\Properties\\Resources.Designer.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwBsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwBsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T20:00:15.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "skorboard.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs",
+              "RelativeDocumentMoniker": "oyunum\\skorboard.cs",
+              "ToolTip": "C:\\Users\\BenimBilgisayarim\\Desktop\\oyunum\\oyunum\\skorboard.cs [Tasar\u0131m]",
+              "RelativeToolTip": "oyunum\\skorboard.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:26:30.291Z"
             }
           ]
         }
